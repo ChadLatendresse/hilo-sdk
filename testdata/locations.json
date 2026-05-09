@@ -1,0 +1,30 @@
+[
+  {
+    "addressId": "00000000-ANONYMOUS",
+    "countryCode": "CA",
+    "createdUtc": "2025-05-07T19:32:47.007Z",
+    "energyCostConfigured": false,
+    "gatewayCount": 1,
+    "id": 10000,
+    "locationHiloId": "urn:hilo:crm:00000000-anonymous:0",
+    "mobileAppAccessDeniedReason": null,
+    "name": "Demo Home",
+    "postalCode": "A1A 1A1",
+    "ratePlan": {
+      "current": "CH",
+      "history": [
+        {
+          "effectiveDate": "2025-04-24T17:17:09Z",
+          "name": "Hilo"
+        },
+        {
+          "effectiveDate": "2025-11-19T13:07:24.1247129Z",
+          "name": "CH"
+        }
+      ]
+    },
+    "temperatureFormat": "Celcius",
+    "timeFormat": "MilitaryFormat",
+    "timeZone": "Eastern Standard Time"
+  }
+]

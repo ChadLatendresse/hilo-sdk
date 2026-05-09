@@ -1,0 +1,183 @@
+{
+  "getLocation": {
+    "devices": [
+      {
+        "__typename": "BasicSmartMeter",
+        "connectionStatus": "CONNECTED",
+        "gatewayHiloId": "urn:hilo:philo:0000000000aa:0",
+        "hiloId": "urn:hilo:philo:0x0000000000000000-smart_meter:0",
+        "lastUpdate": "0001-01-01T00:00:00.000Z",
+        "physicalAddress": "0x0000000000000000-smart_meter",
+        "power": {
+          "kind": "KILOWATT",
+          "value": 0.355
+        },
+        "smartMeterType": "GENERIC"
+      },
+      {
+        "__typename": "Gateway",
+        "connectionStatus": "CONNECTED",
+        "gatewayHiloId": "urn:hilo:philo:0000000000aa:0",
+        "hiloId": "urn:hilo:philo:0000000000aa:0",
+        "lastUpdate": "2026-05-07T11:47:45.218Z",
+        "physicalAddress": "VCA01-0000000000000000000000",
+        "smartMeterPairingStatus": true,
+        "zigBeeChannel": 14
+      },
+      {
+        "__typename": "BasicThermostat",
+        "ambientHumidity": 0,
+        "ambientTempSetpoint": {
+          "kind": "DEGREE_CELSIUS",
+          "value": 15.5
+        },
+        "ambientTemperature": {
+          "kind": "DEGREE_CELSIUS",
+          "value": 21
+        },
+        "connectionStatus": "CONNECTED",
+        "gatewayHiloId": "urn:hilo:philo:0000000000aa:0",
+        "heatDemand": 0,
+        "hiloId": "urn:hilo:philo:f000000000000001:0",
+        "lastUpdate": "2026-05-08T01:53:31.111Z",
+        "mode": "UNKNOWN",
+        "model": "STLO-34",
+        "physicalAddress": "F000000000000001",
+        "power": {
+          "kind": "WATT",
+          "value": null
+        },
+        "thermostatType": "GENERIC"
+      },
+      {
+        "__typename": "BasicThermostat",
+        "ambientHumidity": 0,
+        "ambientTempSetpoint": {
+          "kind": "DEGREE_CELSIUS",
+          "value": 18.5
+        },
+        "ambientTemperature": {
+          "kind": "DEGREE_CELSIUS",
+          "value": 23
+        },
+        "connectionStatus": "CONNECTED",
+        "gatewayHiloId": "urn:hilo:philo:0000000000aa:0",
+        "heatDemand": 7,
+        "hiloId": "urn:hilo:philo:f000000000000002:0",
+        "lastUpdate": "2026-05-08T01:48:34.911Z",
+        "mode": "UNKNOWN",
+        "model": "STLO-34",
+        "physicalAddress": "F000000000000002",
+        "power": {
+          "kind": "WATT",
+          "value": null
+        },
+        "thermostatType": "GENERIC"
+      },
+      {
+        "__typename": "BasicThermostat",
+        "ambientHumidity": 0,
+        "ambientTempSetpoint": {
+          "kind": "DEGREE_CELSIUS",
+          "value": 18.5
+        },
+        "ambientTemperature": {
+          "kind": "DEGREE_CELSIUS",
+          "value": 23.5
+        },
+        "connectionStatus": "CONNECTED",
+        "gatewayHiloId": "urn:hilo:philo:0000000000aa:0",
+        "heatDemand": 13,
+        "hiloId": "urn:hilo:philo:f000000000000003:0",
+        "lastUpdate": "2026-05-08T02:09:55.972Z",
+        "mode": "UNKNOWN",
+        "model": "STLO-34",
+        "physicalAddress": "F000000000000003",
+        "power": {
+          "kind": "WATT",
+          "value": null
+        },
+        "thermostatType": "GENERIC"
+      },
+      {
+        "__typename": "BasicThermostat",
+        "ambientHumidity": 0,
+        "ambientTempSetpoint": {
+          "kind": "DEGREE_CELSIUS",
+          "value": 14.5
+        },
+        "ambientTemperature": {
+          "kind": "DEGREE_CELSIUS",
+          "value": 23
+        },
+        "connectionStatus": "CONNECTED",
+        "gatewayHiloId": "urn:hilo:philo:0000000000aa:0",
+        "heatDemand": 0,
+        "hiloId": "urn:hilo:philo:f000000000000004:0",
+        "lastUpdate": "2026-05-08T01:52:46.065Z",
+        "mode": "UNKNOWN",
+        "model": "STLO-34",
+        "physicalAddress": "F000000000000004",
+        "power": {
+          "kind": "WATT",
+          "value": null
+        },
+        "thermostatType": "GENERIC"
+      },
+      {
+        "__typename": "BasicThermostat",
+        "ambientHumidity": 0,
+        "ambientTempSetpoint": {
+          "kind": "DEGREE_CELSIUS",
+          "value": 14.5
+        },
+        "ambientTemperature": {
+          "kind": "DEGREE_CELSIUS",
+          "value": 23.5
+        },
+        "connectionStatus": "CONNECTED",
+        "gatewayHiloId": "urn:hilo:philo:0000000000aa:0",
+        "heatDemand": 0,
+        "hiloId": "urn:hilo:philo:f000000000000005:0",
+        "lastUpdate": "2026-05-08T01:59:13.815Z",
+        "mode": "UNKNOWN",
+        "model": "STLO-34",
+        "physicalAddress": "F000000000000005",
+        "power": {
+          "kind": "WATT",
+          "value": null
+        },
+        "thermostatType": "GENERIC"
+      },
+      {
+        "__typename": "BasicThermostat",
+        "ambientHumidity": 0,
+        "ambientTempSetpoint": {
+          "kind": "DEGREE_CELSIUS",
+          "value": 23.5
+        },
+        "ambientTemperature": {
+          "kind": "DEGREE_CELSIUS",
+          "value": 26
+        },
+        "connectionStatus": "CONNECTED",
+        "gatewayHiloId": "urn:hilo:philo:0000000000aa:0",
+        "heatDemand": 0,
+        "hiloId": "urn:hilo:philo:f000000000000006:0",
+        "lastUpdate": "2026-05-07T12:08:58.066Z",
+        "mode": "UNKNOWN",
+        "model": "STLO-34",
+        "physicalAddress": "F000000000000006",
+        "power": {
+          "kind": "WATT",
+          "value": null
+        },
+        "thermostatType": "GENERIC"
+      }
+    ],
+    "hiloId": "urn:hilo:crm:00000000-anonymous:0",
+    "lastUpdate": "2025-12-29T19:18:59.482Z",
+    "lastUpdateVersion": 226,
+    "transmissionTime": "2026-05-08T02:18:23.496Z"
+  }
+}
